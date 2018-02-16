@@ -156,6 +156,26 @@ body{
 	!border-style:solid;
 	!border-color:black;
 } 
+.Members{
+	text-align:left;
+	position:relative;
+	top:0px;
+	color: black;
+	font-weight:bold;
+	font-size:14px;
+	!border-style:solid;
+	!border-color:black;
+} 
+.Team{
+	text-align:center;
+	position:relative;
+	top:350px;
+	color: navy;
+	font-weight:bold;
+	font-size:18px;
+	border-style:solid;
+	border-color:black;
+} 
 .End{
 	position:relative;
 	!left:300px;
@@ -163,7 +183,7 @@ body{
 	opacity:0.7;
 	width:100px;
 	color:black;
-	top:300px;
+	top:400px;
 	left:320px;
 	!padding:10px;
 	text-align:center;
