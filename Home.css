@@ -3,7 +3,7 @@ body{
 	background-position:center center;
 	background-size:920px;
 	background-repeat: repeat-x;
-	animation: animatedBackground 5s linear infinite;;
+	animation: animatedBackground 25s linear infinite;;
 	}
 .wrapper{
 	width:799px;
@@ -23,19 +23,19 @@ body{
 .main{
 	min-height:100px;
 	background-color:navy;
-	opacity:0.7;
+	opacity:0.9;
 	position:relative;
 	top:180px;
 	font-weight:bold;
 	font-size:larger;
 	padding:70px 40px 10px 40px;
 	text-align:center;
-	animation: 10s spiral-staircase linear infinite;
-	color:white;  
+	!animation: 10s spiral-staircase linear infinite;
+	color:cyan;  
 	text-shadow:
-    0 0 55px #fff,
-    0 0 20px #fff,
-    0 0 30px #fff,
+    0 0 155px #fff,
+    0 0 120px #fff,
+    0 0 130px #fff,
     0 0 50px #0ff,
     0 0 80px #0ff,
     0 0 100px #0ff,
