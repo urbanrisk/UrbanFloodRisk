@@ -1,9 +1,10 @@
 body{
-	background: url("./Images/Mumbai_flood.jpg");
+	!background: url("file:///C:/UrbRISK/Images/Mumbai_flood.jpg");
+	background: url("./Images/Front_matter.png");
 	background-position:center center;
 	background-size:920px;
 	background-repeat: repeat-x;
-	animation: animatedBackground 25s linear infinite;;
+	animation: animatedBackground 15s linear infinite;
 	}
 .wrapper{
 	width:799px;
@@ -11,9 +12,10 @@ body{
 	margin: 0 auto 0 auto;
 }
 .heading{
-	height:90px;
+	height:70px;
 	!opacity: 0.6;
-	background:#E0E0E0; 
+	!background:#E0E0E0; 
+	background:white;
 	padding:0px; 
 	text-align:center;
 	color: navy;
@@ -21,18 +23,18 @@ body{
 	border-color:white;
 }
 .main{
-	min-height:100px;
-	background-color:navy;
-	opacity:0.9;
+	min-height:80px;
+	background-color:none;
+	opacity:0.95;
 	position:relative;
-	top:180px;
+	top:220px;
 	font-weight:bold;
-	font-size:larger;
-	padding:70px 40px 10px 40px;
+	font-size:20px;
+	!padding:50px 20px 10px 20px;
 	text-align:center;
 	!animation: 10s spiral-staircase linear infinite;
-	color: white;  
-	text-shadow:
+	!color:navy;  
+/* 	text-shadow:
     0 0 155px #fff,
     0 0 120px #fff,
     0 0 130px #fff,
@@ -43,7 +45,7 @@ body{
     0 0 250px #0ff;
 	border-style:solid;
 	border-color:transparent;
-	border-radius:60%;
+	border-radius:60%; */
 }
 .menu1{
 	text-align:left;
@@ -86,7 +88,7 @@ body{
 	padding:5px;
 	position:relative;
 	float:bottom;
-	bottom:-250px;
+	bottom:-380px;
 }
 .cities{
 	min-height:5px;
@@ -117,11 +119,12 @@ body{
 	box-shadow: inset 30px 30px 30px rgba(153,51,255 ,0.7);
 }
 .Study{
-	height:180px;
+	height:190px;
 	!background: linear-gradient(29deg, #E0E0E0 50%, #9933FF 50%);
 	box-shadow: inset 50px 50px 60px rgba(70,130,180 ,0.7);
 	position:relative;
-	top:280px;
+	text-align:left;
+	top:160px;
 	!width:600px;
 	!opacity:0.6;
 	!float:left;
@@ -138,7 +141,7 @@ body{
 	font-weight:bold;
 	font-size:20px;
 	position:relative;
-	top:300px;
+	top:200px;
 	border-style:solid;
 	border-color:black;
 	!background-color:rgba(70,130,180 ,0.2);
@@ -169,7 +172,7 @@ body{
 .Team{
 	text-align:center;
 	position:relative;
-	top:350px;
+	top:250px;
 	color: navy;
 	font-weight:bold;
 	font-size:18px;
@@ -237,7 +240,7 @@ a:active {
 	to { background-position: 80% 0; }
 }
 #main_nav ul {
-			box-shadow: inset 50px 50px 60px rgba(70,130,180 ,0.8);
+			box-shadow: inset 50px 50px 60px rgba(90,10,128,0.4);
 			float: left;
 			position: relative;
 			-webkit-transition: 1s;
@@ -245,7 +248,7 @@ a:active {
 			border-style:none;
 			border-color:navy;
 			position: absolute;
-			top: 95px; 
+			top: 75px; 
 		}
 	
 		#main_nav li {
