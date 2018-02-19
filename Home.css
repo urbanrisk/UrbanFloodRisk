@@ -1,6 +1,6 @@
 body{
 	!background: url("file:///C:/UrbRISK/Images/Mumbai_flood.jpg");
-	background: url("./Images/Front_matter.png");
+	background: url("./Images/Front_1.png");
 	background-position:center center;
 	background-size:920px;
 	background-repeat: repeat-x;
@@ -125,7 +125,7 @@ body{
 	box-shadow: inset 50px 50px 60px rgba(70,130,180 ,0.7);
 	position:relative;
 	text-align:left;
-	top:160px;
+	top:210px;
 	!width:600px;
 	!opacity:0.6;
 	!float:left;
