@@ -7,7 +7,7 @@ body{
 	animation: animatedBackground 15s linear infinite;
 	}
 .wrapper{
-	width:799px;
+	width:1039px;
 	!background:#eee;
 	margin: 0 auto 0 auto;
 }
@@ -134,6 +134,7 @@ body{
 	!opacity:0.6;
 	!float:left;
 	font-weight:bold;
+	font-size: 16px;
 	border-style:solid;
 	border-color:black;
 }
@@ -170,9 +171,10 @@ body{
 	top:0px;
 	color: black;
 	font-weight:bold;
-	font-size:14px;
+	font-size:18px;
 	!border-style:solid;
 	!border-color:black;
+	margin-left: 200px;
 } 
 .Team{
 	text-align:center;
@@ -260,7 +262,7 @@ a:active {
 		#main_nav li {
 			float: left;
 			position: relative;
-			width: 253px;
+			width: 333px;
 			list-style: none;
 			-webkit-transition: 1s;
 			transition: 1s;
