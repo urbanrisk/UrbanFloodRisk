@@ -12,13 +12,16 @@ body{
 	margin: 0 auto 0 auto;
 }
 .heading{
-	height:70px;
+	height:75px;
 	!opacity: 0.6;
 	!background:#E0E0E0; 
 	background:white;
+	border: 1px solid;
+    !padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 153, 255) inset;
 	padding:0px; 
 	text-align:center;
-	text-shadow: 0 0 3px #DA70D6;
+	text-shadow: 0 0 3px #EE82EE;
 	border-style:none;
 	border-color:white;
 }
@@ -29,13 +32,13 @@ body{
 	position:relative;
 	top:230px;
 	font-weight:bold;
-	color: indigo;
+	color: navy;
 	font-size:19px;
 	!padding:50px 20px 10px 20px;
 	text-align:center;
 	!animation: 10s spiral-staircase linear infinite;
 	!color:navy; 
-    text-shadow: 0 0 3px #DA70D6;	
+    text-shadow: 0 0 3px rgb(255,255,0);	
 /* 	text-shadow:
     0 0 155px #fff,
     0 0 120px #fff,
