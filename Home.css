@@ -132,7 +132,7 @@ body{
 	text-align:center;
 	position:relative;
 	top:415px;
-	width:350px;
+	width:430px;
 	color: navy;
 	font-weight:bold;
 	font-size:20px;
@@ -148,7 +148,7 @@ body{
 	position:relative;
 	text-align:left;
 	top:0px;
-	width:350px;
+	width:430px;
 	!opacity:0.6;
 	!float:left;
 	font-weight:bold;
@@ -159,8 +159,20 @@ body{
 .Team{
 	text-align:center;
 	position:relative;
-	top:760px;
-	width:440px;
+	top:750px;
+	width:430px;
+	color: navy;
+	font-weight:bold;
+	font-size:18px;
+	!border-style:solid;
+	!margin-left: 450px;
+	!border-color:black;
+}
+.Owner{
+	text-align:center;
+	position:relative;
+	top:450px;
+	width:430px;
 	color: navy;
 	font-weight:bold;
 	font-size:18px;
@@ -191,7 +203,7 @@ body{
 	font-size:20px;
 	width: 600px;
 	position:relative;
-	top:60px;
+	top:-40px;
 	margin-left: 450px;
 	!border-style:solid;
 	!border-color:black;
