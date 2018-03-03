@@ -156,7 +156,7 @@ header h1{
 .Study{
 	text-align:center;
 	position:relative;
-	top:550px;
+	top:580px;
 	width:430px;
 	color: navy;
 	font-weight:bold;
@@ -184,7 +184,7 @@ header h1{
 .Team{
 	text-align:center;
 	position:relative;
-	top:750px;
+	top:780px;
 	width:430px;
 	color: navy;
 	font-weight:bold;
@@ -196,7 +196,7 @@ header h1{
 .Owner{
 	text-align:center;
 	position:relative;
-	top:450px;
+	top:480px;
 	width:430px;
 	color: navy;
 	font-weight:bold;
@@ -211,6 +211,7 @@ header h1{
 	top:0px;
 	!color: black;
 	background-color: white;
+	padding: 5px 0px 2px 0px;
 	!font-weight:none;
 	box-shadow: inset 2px 2px 10px 2px blue;
 	!font-size:12px;
@@ -229,7 +230,7 @@ header h1{
 	font-size:20px;
 	width: 400px;
 	position:relative;
-	top:75px;
+	top:92px;
 	margin-left:440px;
 	!border-style:solid;
 	!border-color:black;
@@ -401,7 +402,7 @@ a:active {
 	position:relative;
 	!left:270px;
 	background: none;
-	opacity:0.7;
+	!opacity:0.7;
 	width:100px;
 	color:black;
 	top:60px;
