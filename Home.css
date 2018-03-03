@@ -179,7 +179,7 @@ header h1{
 	color: black;
 	font-weight:bold;
 	font-family: 'Berkshire Swash', cursive;
-	font-size:20px;
+	font-size:22px;
 	background-color: white;
 	text-shadow: 2px 2px yellow;
 	!margin-left: -200px;
@@ -204,30 +204,30 @@ header h1{
 	!border-style:solid;
 	!border-color:black;	
 }
-.Team{
+.Owner{
 	text-align:center;
 	position:relative;
-	top:760px;
+	top:630px;
 	width:430px;
 	color: brown;
+	background-color: white;
 	font-family: 'Berkshire Swash', cursive;
 	font-weight:bold;
 	font-size:14px;
-	background-color: white;
 	!border-style:solid;
 	!margin-left: 450px;
 	!border-color:black;
 }
-.Owner{
+.Team{
 	text-align:center;
 	position:relative;
-	top:500px;
+	top:660px;
 	width:430px;
 	color: brown;
-	background-color: white;
 	font-family: 'Berkshire Swash', cursive;
 	font-weight:bold;
 	font-size:14px;
+	background-color: white;
 	!border-style:solid;
 	!margin-left: 450px;
 	!border-color:black;
@@ -248,7 +248,8 @@ header h1{
 	!margin-left: 200px;
 } 
 .Practice{
-	height:320px;
+	text-shadow: 0px 0px yellow;
+	height: 183px;
 	!opacity: 0.7;
 	background:white;
 	!width:1000px;
@@ -257,11 +258,11 @@ header h1{
 	font-family: 'Merienda', cursive;
 	font-weight:bold;
 	font-size:20px;
-	width: 400px;
+	width: 500px;
 	position:relative;
-	top:119px;
-	margin-left:440px;
-	margin-bottom: 0%;
+	top:-7px;
+	!margin-left:10px;
+	!margin-bottom: 0%;
 	!border-style:solid;
 	!border-color:black;
 	!background-color:rgba(70,130,180 ,0.2);
@@ -280,7 +281,42 @@ header h1{
 	!border-style:solid;
 	!border-color:black;
 }
+.Association{
+	text-shadow: 0px 0px yellow;
+	height: 520px;
+	!opacity: 0.7;
+	background:white;
+	!width:1000px;
+	text-align:left;
+	color: blue;
+	font-family: 'Merienda', cursive;
+	font-weight:bold;
+	font-size:20px;
+	width: 400px;
+	position:absolute;
+	top:41px;
+	margin-left:505px;
+	!margin-bottom: 0%;
+	!border-style:solid;
+	!border-color:black;
+	!background-color:rgba(70,130,180 ,0.2);
+	!background: linear-gradient(-29deg, #E0E0E0 50%, #9999FF 50%);
+	box-shadow: inset 2px 2px 10px 2px blue;
+	!transition: all 0.45s;
+}
+.Certification{
+	text-align:left;
+	position:relative;
+	top:-15px;
+	color: black;
+	font-family: 'ABeeZee', sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	!border-style:solid;
+	!border-color:black;
+}
 .Industry{
+	text-shadow: 0px 0px yellow;
 	height: 320px;
 	!opacity: 0.7;
 	background:white;
@@ -289,10 +325,11 @@ header h1{
 	color: red;
 	font-weight:bold;
 	font-size:20px;
+	font-family: 'Merienda', cursive;
 	width: 500px;
-	position:absolute;
-	top:0px;
-	margin-left: 405px;
+	position:relative;
+	top: 10px;
+	!margin-left: 440px;
 	!border-style:solid;
 	!border-color:black;
 	!background-color:rgba(70,130,180 ,0.2);
@@ -452,15 +489,15 @@ a:active {
   }
 }
 .End{
-	position:relative;
 	!left:270px;
 	background: none;
 	!opacity:0.7;
 	width:100px;
 	font-size:12px;
 	color:black;
-	top:40px;
-	left:420px;
+	position: relative;
+	top:660px;
+	margin-left:550px;
 	!padding:10px;
 	text-align:center;
 	!border-style:solid;
