@@ -89,9 +89,7 @@ header h1{
     0 0 100px #0ff,
     0 0 100px #0ff,
     0 0 250px #0ff; */
-	border-style:solid;
-	border-color:black;
-	border-radius:65%;
+  border-radius:65%;
 }
 .menu1{
 	text-align:left;
