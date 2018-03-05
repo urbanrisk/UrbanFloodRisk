@@ -77,7 +77,7 @@ header h1{
 	font-size:16px;
 	padding:40px 30px 5px 20px;	
 	!box-shadow: inset 50px 50px 60px rgba(70,130,180 ,0.7);
-	animation: coin-rotate 15s; 
+	animation: coin-rotate 5s; 
 	 box-shadow: 
     0 0 0 5px violet,
     0 0 0 10px indigo,
