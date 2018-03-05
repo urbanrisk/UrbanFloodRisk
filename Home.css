@@ -12,7 +12,7 @@ body{
 	!background-size:1060px;
 	background-repeat: no-repeat;
 	!background-repeat: repeat-x;
-	animation: animatedBackground 15s linear infinite;
+	!animation: animatedBackground 15s linear infinite;
 	}
 header{
 	background:#3284d6;
