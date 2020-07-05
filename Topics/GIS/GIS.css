@@ -43,7 +43,7 @@ body{
 	font-weight:bold;
 }.menu2{
 	position:relative;
-	left:400px;
+	left:450px;
 	background:lightblue;
 	opacity:0.7;
 	padding:10px;
@@ -52,7 +52,7 @@ body{
 	font-weight:bold;
 }.menu3{
 	position:relative;
-	left:800px;
+	left:900px;
 	background:lightblue;
 	opacity:0.7;
 	padding:10px;
