@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 body{
 	margin:0;
-	background: url("./Images/Front_matter.png");
+	background: url("./Images/Front_5.png");
 	background-color: #dcc9f7;
 	!background-color: linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
 	background-position: top center;
@@ -71,7 +71,7 @@ header h1{
 	position:absolute;
 	top:185px;
 	font-weight:bold;
-	margin-left:30%;
+	margin-left:25%;
 	color: black;
 	font-family: 'Merienda', cursive;
 	font-size:16px;
@@ -222,7 +222,7 @@ header h1{
 .Study{
 	text-align:center;
 	position:relative;
-	top:593px;
+	top:585px;
 	width:430px;
 	color: black;
 	font-weight:bold;
@@ -300,18 +300,19 @@ header h1{
 } 
 .Practice{
 	text-shadow: 0px 0px yellow;
-	height: 195px;
+	height: 210px;
 	!opacity: 0.7;
 	background:white;
-	!width:1000px;
+	!width:800px;
 	text-align:left;
 	color: green;
 	font-family: 'Merienda', cursive;
 	font-weight:bold;
 	font-size:20px;
-	width: 500px;
-	position:relative;
-	top:-10px;
+	width: 400px;
+	position:absolute;
+	margin-left:945px;
+	top:1480px;
 	!margin-left:10px;
 	!margin-bottom: 0%;
 	!border-style:solid;
@@ -366,9 +367,9 @@ header h1{
 	!border-style:solid;
 	!border-color:black;
 }
-.Industry{
+.Careers{
 	text-shadow: 0px 0px yellow;
-	height: 650px;
+	height: 780px;
 	!opacity: 0.7;
 	background:white;
 	!width:1000px;
@@ -379,7 +380,7 @@ header h1{
 	font-family: 'Merienda', cursive;
 	width: 500px;
 	position:relative;
-	top: -4px;
+	top: 10px;
 	!margin-left: 440px;
 	!border-style:solid;
 	!border-color:black;
@@ -547,7 +548,7 @@ a:active {
 	font-size:12px;
 	color:black;
 	position: relative;
-	top:820px;
+	top:910px;
 	margin-left:550px;
 	!padding:10px;
 	text-align:center;
