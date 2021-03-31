@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 body{
 	margin:0;
-	background: url("./Images/Front_5.png");
+	background: url("./Images/Front_matter.png");
 	background-color: #dcc9f7;
 	!background-color: linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);
 	background-position: top center;
